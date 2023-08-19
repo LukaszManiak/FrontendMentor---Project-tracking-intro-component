@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dot {
+  align-self: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: hsl(207, 33%, 95%);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

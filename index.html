@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <nav class="relative container mx-auto p-6">
+      <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+          <img src="images/logo.svg" alt="company logo" />
+        </div>
+        <!-- menu items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="text-darkGrayishBlue hover:text-veryDarkBlue"
+            >Product</a
+          >
+          <a href="#" class="text-darkGrayishBlue hover:text-veryDarkBlue"
+            >Features</a
+          >
+          <a href="#" class="text-darkGrayishBlue hover:text-veryDarkBlue"
+            >Pricing</a
+          >
+          <div class="dot"></div>
+          <a href="#" class="text-darkGrayishBlue hover:text-veryDarkBlue"
+            >Login</a
+          >
+        </div>
+
+        <!-- hamburger -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="hero-section">
+      <div
+        class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!-- left item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <div class="flex items-center space-x-2">
+            <div
+              class="px-4 py-2 text-white rounded-full md:py-1 bg-veryDarkBlue"
+            >
+              New
+            </div>
+            <h3 class="text-base font-bold md:mb-4">Monograph Dashboard</h3>
+          </div>
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+          >
+            Powerful insights into your team
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayoshBlue md:text-left">
+            Project planning and time tracking for agile teams
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="p-3 px-6 pt-2 text-white bg-red rounded-full baseline hover:bg-brightRedLight"
+              >SCHEDULE A DEMO</a
+            >
+
+            <a
+              href="#"
+              class="p-3 px-6 pt-2 text-darkGrayishBlue bg-white rounded-full baseline hover:bg-brightRedLight"
+              >TO SEE A PREVIEW</a
+            >
+          </div>
+        </div>
+        <!-- image -->
+        <div class="md:w-1/2">
+          <img
+            src="images/illustration-devices.svg"
+            alt="illustration-devices"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="flex w-100% flex-col justify-center align-middle">
+      <p class="">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Lukasz Maniak</a>.
+      </p>
+    </footer>
+  </body>
+</html>
