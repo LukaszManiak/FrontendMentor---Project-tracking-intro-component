@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-family: "Barlow Condensed", sans-serif;
+}
 .dot {
   align-self: center;
   width: 8px;
