@@ -12,7 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="css/main.css" />
-
+    <script defer src="app.js"></script>
     <title>Frontend Mentor | Project tracking intro component</title>
   </head>
   <body>
@@ -47,17 +47,52 @@
           >
         </div>
 
-        <!-- hamburger -->
-        <button
-          id="menu-btn"
-          class="block hamburger md:hidden focus:outline-none"
-        >
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
+        <!-- hamburger button -->
+        <button class="md:hidden block nav-menu-btn">
+          <img
+            class="nav-hamburger-img"
+            src="images/icon-hamburger.svg"
+            alt=""
+          />
         </button>
       </div>
     </nav>
+
+    <div class="hamburger-menu hidden md:hidden">
+      <ul class="flex flex-col justify-center items-center space-y-3">
+        <li>
+          <a
+            href="#"
+            class="text-xl hover:text-grayishBlue text-veryDarkBlue ease-in-out duration-300"
+            >Product</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-xl hover:text-grayishBlue text-veryDarkBlue ease-in-out duration-300"
+            >Features</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-xl hover:text-grayishBlue text-veryDarkBlue ease-in-out duration-300"
+            >Pricing</a
+          >
+        </li>
+        <li class="w-full">
+          <div class="w-full h-1/6 border-t-0 border-2"></div>
+        </li>
+        <li>
+          <a
+            href="#"
+            class="text-xl font-medium text-grayishBlue ease-in-out duration-300"
+            >Login</a
+          >
+        </li>
+      </ul>
+    </div>
 
     <!-- hero section -->
     <section id="hero-section">
@@ -108,7 +143,7 @@
       </div>
     </section>
 
-    <footer class="attribution text-lg">
+    <footer class="attribution text-lg mt-4 p-8">
       <p class="">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
