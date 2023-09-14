@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/LukaszManiak/FrontendMentor-Project-tracking-intro-component)
-<!-- - Live Site URL: [Netlify](https://bookmarklanding-lukas.netlify.app/) -->
+- Live Site URL: [Netlify](https://tracking-intro-lukas.netlify.app/)
 
 ### Built with
 
